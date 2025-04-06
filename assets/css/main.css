@@ -2591,9 +2591,15 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
+<<<<<<< HEAD
 		background-color: #f1c40f;
 		background-attachment: scroll,								scroll;
 		background-image: none;
+=======
+		background-color: #1f1815;
+		background-attachment: scroll,								scroll;
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+>>>>>>> 7346e6b (aggiunta foto)
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3218,4 +3224,8 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> 7346e6b (aggiunta foto)
