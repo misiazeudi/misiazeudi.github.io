@@ -2151,25 +2151,20 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			/*width: 300px;*/       /* o più, se vuoi ancora più grande */
-  			/*height: 300px;*/
-  			/*border-radius: 100%;*/
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 1em;
+			transform: translateX(-26px);
 		}
+			
+			.image.avatar img {
+				width: 130%;
+				height: auto;
+				object-fit: cover;    /* oppure "contain" se vuoi che stia tutta dentro */
+			}
 
 			.image.avatar:before {
 				display: none;
 			}
 
-			.image.avatar img {
-				/*border-radius: 100%;*/
-				width: 200%;
-				height: 200%
-			}
-
+			
 /* List */
 
 	ol {
@@ -2660,11 +2655,13 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
-			margin: 0;
+			margin: 1.25em;
+			text-align: -30em;
+
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
+			margin: 0 1.5em 1em 0;
 			width: 6.25em;
 		}
 
@@ -3249,6 +3246,8 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
+			
+				
 
 		/* Footer */
 
